@@ -1,7 +1,7 @@
 ###########
 # site.url, site.title
 
-title: 'Five Acre Fest'
+title: 'Red - The Crowning'
 
 ## note: 
 #  use site.path in your templates to make it work for both protocols e.g. http and https
@@ -28,12 +28,6 @@ exclude:
   - Template
 
 plugins: []
-
-# include:
-#   - vendor/bundle/gems/jekyll-font-awesome-sass-0.1.0
-# include:
-#   - 
-
 
 safe: true
 lsi: false

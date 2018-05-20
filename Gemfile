@@ -1,7 +1,3 @@
-source 'https://rubygems.org' do
-  
-  group :jekyll_plugins do
-    gem "jekyll-font-awesome-sass"
-  end
+source "https://rubygems.org"
 
-end
+gem "github-pages", group: :jekyll_plugins
