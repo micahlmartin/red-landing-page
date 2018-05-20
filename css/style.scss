@@ -1,0 +1,38 @@
+---
+---
+
+// add bootstrap variable settings here
+
+$yellow-color: #efc367;
+$green-color: #588859;
+$navbar-inverse-bg: $green-color;
+$navbar-inverse-brand-color: $yellow-color !default;
+$navbar-inverse-link-color: lighten($green-color, 15%) !default;
+
+@import 'bootstrap';
+@import 'theme';
+// add more css stuff here
+
+.wrapper { 
+  margin-top: 50px
+}
+// body {
+//   padding-top: 50px;
+// }
+
+// .content {
+//   padding: 40px 15px;
+// }
+
+.logo {
+  height: 250px;
+  width: 250px;
+}
+
+// .hero-background {
+//   background: black;
+// }
+
+.banner {
+  background: black;
+}
