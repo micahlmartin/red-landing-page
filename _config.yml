@@ -1,26 +1,6 @@
-###########
-# site.url, site.title
-
 title: 'Red - The Crowning'
-
-## note: 
-#  use site.path in your templates to make it work for both protocols e.g. http and https
-#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
 path: ""
-
-
-
-########
-# more settings
-
-markdown: kramdown
-
-sass:
-  sass_dir: css
-  style:    expanded
-
-font-awesome:
-  assets: true
+baseurl: ""
 
 exclude:
   - README.md
